@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:kootii/screens/OTPEnterScreen.dart';
 import 'package:kootii/screens/OTPScreen.dart';
+import 'package:kootii/screens/SendMoneyScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: OTPEnterScreen(),
+      home: SendMoneyScreen(),
     );
   }
 }
