@@ -148,7 +148,7 @@ class _SendMoneyScreenState extends State<SendMoneyScreen> {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 10.0),
+                  padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 20.0),
                   child: Image.asset(
                     './lib/assets/images/ads.jpg',
                     width: displayWidth(context) * 0.5,
