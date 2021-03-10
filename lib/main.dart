@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:kootii/screens/CreatePasswordScreen.dart';
+import 'package:kootii/screens/DebitCardScreen.dart';
 import 'package:kootii/screens/OTPEnterScreen.dart';
 import 'package:kootii/screens/OTPScreen.dart';
 import 'package:kootii/screens/SendMoneyScreen.dart';
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: SendMoneyScreen(),
+      home: DebitCartScreen(),
     );
   }
 }
