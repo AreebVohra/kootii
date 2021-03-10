@@ -31,7 +31,7 @@ class _DebitCartScreenState extends State<DebitCartScreen> {
                     'Payment Information',
                     style: TextStyle(
                       fontSize: 35,
-                      color: Color(0xFFe9591d),
+                      color: Color(0xFF7e7e7e),
                     ),
                   ),
                 ),
